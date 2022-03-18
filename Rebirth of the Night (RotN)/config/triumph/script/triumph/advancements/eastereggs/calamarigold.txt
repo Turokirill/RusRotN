@@ -1,0 +1,14 @@
+setIcon("atop:amber_sword")
+setTitle("CalaMariGold")
+setDescription("Создайте реликвию 1 из 6, объединив два предмета на ее имя.")
+
+addParent("triumph:advancements/eastereggs/root")
+
+
+criteria = addCriteria("Dev Relic 1", "minecraft:inventory_changed")
+criteria.addItem("atop:amber_sword")
+
+alwaysVisible()
+hideLines()
+
+setPos(-402,138)

@@ -1,0 +1,19 @@
+{
+    "name": "Рюкзак",
+    "icon": "quark:backpack",
+    "category": "exploration_tools",
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:quark backpack",
+            "text": "Рюкзак может помочь мне унести вдвое больше вещей, чем я обычно могу унести, а это значит, что я смогу унести домой больше ценных вещей."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "innovation/materials/leather"
+            ]
+        }
+    ]
+}

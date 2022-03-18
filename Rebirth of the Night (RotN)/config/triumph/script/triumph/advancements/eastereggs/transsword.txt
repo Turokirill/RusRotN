@@ -1,0 +1,12 @@
+setIcon("dungeontactics:steel_sword")
+setTitle("Вы законный?!")
+setDescription("Создайте реликвию 5 из 6 с цветами флага трансгендеров.")
+
+addParent("triumph:advancements/eastereggs/root")
+
+criteria = addCriteria("Dev Relic 5", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:steel_sword")
+
+alwaysVisible()
+hideLines()
+setPos(-262,138)

@@ -1,0 +1,11 @@
+setIcon(<mowziesmobs:grant_suns_blessing>)
+setTitle("Хвала Солнцу!")
+setDescription("Получить благословение вождя племени.")
+
+addParent("triumph:advancements/bosskills/killsunchief")
+
+criteria = addCriteria("gain_sun_blessing", "minecraft:effects_changed")
+criteria.addEffect("mowziesmobs:suns_blessing")
+
+alwaysVisible()
+setPos(-219,148)

@@ -1,0 +1,21 @@
+setIcon(<harvestersnight:harvester_scythe>)
+setTitle("Обильный Урожай")
+setDescription("Убей Этого Harvester.")
+
+addRewardFunction("triumph:killedHarvester")
+
+
+addParent("triumph:advancements/progression/earlyArmor")
+
+
+criteria = addCriteria("Harvester", "minecraft:player_killed_entity")
+criteria.setEntityType("harvestersnight:harvester")
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+alwaysVisible()
+drawDirectLines()
+setPos(65,0)

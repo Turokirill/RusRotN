@@ -1,0 +1,14 @@
+setIcon(<lifescroll:spawnscroll>)
+setTitle("Воспоминание о предках")
+setDescription("Привязать свою душу к вашему текущему местоположению.")
+
+
+addParent("triumph:advancements/magick/incantation/incantation")
+
+criteria = addCriteria("Newlife Scroll", "triumph:right_click_item")
+criteria.setItem(<lifescroll:spawnscroll>)
+
+hideLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-330,-365)

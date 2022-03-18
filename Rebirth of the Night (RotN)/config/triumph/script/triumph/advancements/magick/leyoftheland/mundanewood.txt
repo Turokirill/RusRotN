@@ -1,0 +1,15 @@
+setIcon(<biomesoplenty:sapling_2:3>)
+setTitle("Корни магии")
+setDescription("Глубоко вплетенные в земную кору корни деревьев тянутся по линиям нашей звезды. Посадите саженец и исследуйте его свойства.")
+
+addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
+
+// make this unlock with planting any mundane sapling
+criteria = addCriteria("Mundane Sapling", "minecraft:placed_block")
+criteria.setBlock(<ore:mundaneSapling>)
+
+alwaysVisible()
+setShowToast(false)
+setAnnounceToChat(false)
+// (horizontal, vertical)
+setPos(-365,-35)

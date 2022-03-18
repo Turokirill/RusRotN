@@ -1,0 +1,12 @@
+setIcon("spartanweaponry:halberd_invar")
+setTitle("Небесная алебарда")
+setDescription("Создать реликвию Патреона 3 из 3")
+
+addParent("triumph:advancements/eastereggs/root")
+
+criteria = addCriteria("Relic 3", "minecraft:inventory_changed")
+criteria.addItem("spartanweaponry:halberd_invar")
+
+alwaysVisible()
+hideLines()
+setPos(-333,94)

@@ -1,0 +1,11 @@
+setIcon(<minetraps:spikes>)
+setTitle("Spikes")
+setDescription("Убивает мобов значительно быстрее, чем Nail Traps. Нужна сила красного камня.")
+
+addParent("triumph:advancements/basedefense/nail_trap")
+
+criteria = addCriteria("Spikes", "minecraft:inventory_changed")
+criteria.addItem(<minetraps:spikes>)
+
+alwaysVisible()
+setPos(-183,0)

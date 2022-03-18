@@ -1,0 +1,11 @@
+setIcon(<dungeontactics:flamer_block>)
+setTitle("Flamer")
+setDescription("Отталкивает мобов и поджигает их при питании от красного камня. Больше огнеметов за ним увеличивает силу толчка..")
+
+addParent("triumph:advancements/basedefense/fan")
+
+criteria = addCriteria("Flamer", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:flamer_block>)
+
+alwaysVisible()
+setPos(-259,118)

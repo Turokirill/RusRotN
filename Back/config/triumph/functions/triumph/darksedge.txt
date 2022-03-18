@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"Вы чувствуете легкое ощущение боли, когда сжимаете рукоять этого меча..","color":"dark_red","italic":true}]

@@ -1,0 +1,14 @@
+setIcon(<iceandfire:gorgon_head>)
+setTitle("Холодный как камень")
+setDescription("Обезглавьте монстра взглядом, который может убить.")
+
+addRewardFunction("triumph:killedgorgon")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("gorgon", "minecraft:player_killed_entity")
+criteria.setEntityType("iceandfire:gorgon")
+
+hideLines()
+alwaysVisible()
+setPos(-219,86)

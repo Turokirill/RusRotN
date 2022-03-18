@@ -1,0 +1,48 @@
+{
+  "name": "Алкоголь",
+  "icon": "growthcraft_grapes:grapewine",
+  "priority": true,
+  "category": "agriculture_brewing",
+  "advancement": "triumph:advancements/progression/guidebook/make_alcohol",
+  "pages": [
+	{
+	  "type": "item_list_spotlight",
+	  "title": "Алкоголь",
+	  "text": "Путем заваривания и брожения определенных ингредиентов я могу получить доступ к некоторым крепким напиткам.",
+	  "a":"growthcraft_apples:applecider",
+	  "a_t":"Сидр из яблок!",
+	  "a_i":"book:hover_icon.png",
+	  "b":"growthcraft_grapes:grapewine",
+	  "b_t":"Вино из винограда!",
+	  "b_i":"book:hover_icon.png",
+	  "c":"growthcraft_bees:mead",
+	  "c_t":"Медовуха из меда!",
+	  "c_i":"book:hover_icon.png",
+	  "d":"growthcraft_rice:sakebottle",
+	  "d_t":"Саке из риса!",
+	  "d_i":"book:hover_icon.png",
+	  "e":"growthcraft_hops:hopale",
+	  "e_t":"Эль, приготовленный из хмеля!",
+	  "e_i":"book:hover_icon.png",
+	  "f":"growthcraft_milk:kumisbottle",
+	  "f_t":"Кумыс из молока!",
+	  "f_i":"book:hover_icon.png",
+	  "g_i":"book:empty.png",
+	  "text2": "Это не только изысканно и вызывает эйфорию; они будут держать меня сытым $(thing)fed$() и уменьшать $(l)decrease$() моё насыщение $(thing)saturation$() а также дает мне какие-нибудь мощные эффекты $(thing)effects$(), если только немного $(t:Продолжение употребления алкоголя повысит уровень опьянения, после III уровня появится тошнота и слепота)$(thing)tipsiness$() опьянение тоже..."
+	},
+	{
+      "type": "text",
+      "text": "Суть этого проста, хотя, похоже, мало кто знает об этом процессе; я могу либо варить $(thing)brew$() ингредиент в котле $(item)kettle$(), или я могу извлечь его $(t:Apples and Grapes)$(thing)juice$() сок в миксере $(item)crushing tub$() или фруктовом прессе $(item)fruit press$(). Затем я позволяю результату бродить в бочке.$(br2)После того, как я закончу этот процесс, я смогу расслабиться и насладиться плодами своего труда. Или, скорее, забродившие плоды моего труда."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "agriculture_brewing/boozes"
+      ]
+    },
+	{
+      "type": "text",
+      "text": "$(9)$(l:https://docs.google.com/spreadsheets/d/1ykz1iqWUkarnZC76FGyjKs2wExdOgLJ7XHt3haNOV30/edit#gid=1739283064)External таблица рецептов."
+    }
+  ]
+}

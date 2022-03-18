@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"С большим луком и мечом в вашем распоряжении, вы немного чувствуете себя плохо из-за того, что на другом конце этого лука.","color":"dark_red","italic":true}]

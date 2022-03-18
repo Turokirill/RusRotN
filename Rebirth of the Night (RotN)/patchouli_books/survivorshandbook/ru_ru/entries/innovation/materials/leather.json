@@ -1,0 +1,38 @@
+{
+    "name": "Кожа",
+    "icon": "betterwithmods:material:6",
+    "category": "innovation_materials",
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "betterwithmods:material:6",
+            "text": "$(thing)Кожа$() является незаменимым материалом для создания высококачественного оборудования и инструментов. Однако мне нужно будет правильно обработать и загореть его, чтобы он выдержал испытание временем, когда я буду использовать его для крафта."
+        },
+		{
+            "type": "text",
+            "text": "О, какие возможности! Я мечтаю о полезных вещах, от $(l:exploration/tools/backpack)рюкзаков$() до пластинчатой брони..."
+        },
+        {
+            "type": "text",
+            "text": "Во-первых, мне нужно будет протереть кожу, пропустив ее через $(l:innovation/light_machines/millstone)мельничный жернов$() чтобы получить очищенную кожу.$(br2)Тогда я смогу бросить его в котел для приготовления пищи с 4 кусочками $(thing)древесной коры$() или 1 блоком из $(thing)навоза$() для изготовления дубленой кожи."
+        },
+		{
+            "type": "text",
+            "text": "$(br2)После этого я также могу разрезать кожу на кусочки кожи и кожаные ремни ножницами, если это необходимо."
+        },
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:items/tanned_leather_cut",
+            "recipe2": "betterwithmods:items/material/leather_strap"
+        },
+        {
+			"type": "relations",
+			"entries": [
+                "exploration/tools/backpack",
+                "exploration/tools/toolbelt",
+				"innovation/light_machines/millstone"
+			]
+		}
+    ]
+}

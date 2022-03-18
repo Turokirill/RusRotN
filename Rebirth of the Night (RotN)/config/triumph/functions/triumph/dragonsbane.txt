@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"Вы дрожите, когда ваше тело становится единым с драконами.","color":"red","italic":true}]

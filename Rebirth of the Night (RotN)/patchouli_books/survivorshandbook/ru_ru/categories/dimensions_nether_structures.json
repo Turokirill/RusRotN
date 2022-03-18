@@ -1,0 +1,8 @@
+{
+  "name": "Сооружения",
+  "description": "Руины разоренного королевства.",
+  "icon": "minecraft:nether_brick",
+  "sortnum": 2,
+  "read_by_default": "true",
+  "parent": "dimensions_nether"
+}

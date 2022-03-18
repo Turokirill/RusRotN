@@ -1,0 +1,25 @@
+{
+    "name": "Стальная наковальня",
+    "icon": "betterwithmods:steel_anvil",
+    "category": "innovation_advanced_crafting",
+    "sortnum": 3,
+    "advancement": "triumph:advancements/ores/crudeSteel",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "betterwithmods:steel_anvil",
+            "text": "$(thing)Cтальная наковальня$() представляет собой прочный рабочий стол, полностью способный выдерживать обработку чрезвычайно тяжелых и плотных материалов.$(br2)Я могу собрать гораздо больше материалов за один раз с помощью этой большой рабочей области."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:steel anvil",
+            "text": "Хотя для изготовления самой наковальни требуется много тигельной стали, я, наконец, смогу в достаточной степени изготовить броню и инструменты из материалов, которые требуют гораздо большего пространства и поддержки."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/metallurgy/steel"
+			]
+		}
+    ]
+}

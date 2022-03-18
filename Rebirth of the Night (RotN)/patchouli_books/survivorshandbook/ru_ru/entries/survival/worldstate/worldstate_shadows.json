@@ -1,0 +1,20 @@
+{
+  "name": "Тени Собираются",
+  "icon": "contenttweaker:adhesive_shadow",
+  "category": "survival_worldstate",
+  "advancement": "triumph:advancements/progression/killedIdolofRadiance",
+
+  "pages": [
+ 	{
+      "type": "text",
+      "text": "С тех пор, как я разрушил этого сияющего идола, кажется, что тьма Внизу только усилилась."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

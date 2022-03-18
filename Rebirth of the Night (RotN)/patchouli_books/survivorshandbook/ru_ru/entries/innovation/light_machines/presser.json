@@ -1,0 +1,25 @@
+{
+    "name": "Механический прижимной механизм",
+    "icon": "horsepower:press",
+    "category": "innovation_light_machines",
+    "sortnum": 4,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "horsepower:press",
+            "text": "Этот механический пресс на самом деле уникально питается от $(l:innovation/mechpower/horsepower)лошадиной силы.$()$(br2)Самому прессу нужна большая площадь, 7х7, чтобы у лошади было достаточно места для правильного питания машины."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:horse_press",
+            "text": "Как только я все настрою и подключу лошадь к машине, я смогу приступить к обработке предметов, как только помещу их в верхнюю часть механической прижимной машины."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/mechpower/horsepower"
+			]
+		}
+    ]
+}

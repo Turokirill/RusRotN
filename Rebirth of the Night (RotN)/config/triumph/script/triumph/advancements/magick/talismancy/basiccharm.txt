@@ -1,0 +1,12 @@
+setIcon(<dungeontactics:charm_toxic>)
+setTitle("Очаровательный")
+setDescription("Используйте заклинание, чтобы отогнать болезнь статуса.")
+
+addParent("triumph:advancements/magick/talismancy/talismancy")
+
+criteria = addCriteria("Charm Use", "triumph:right_click_item")
+criteria.setItem(<ore:charm>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-365,400)

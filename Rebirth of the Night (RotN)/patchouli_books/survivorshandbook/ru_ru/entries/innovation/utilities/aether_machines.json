@@ -1,0 +1,24 @@
+{
+    "name": "Эфирные машины",
+    "icon": "aether_legacy:zanite_gemstone",
+    "category": "innovation_utilities",
+    "advancement": "triumph:advancements/progression/aether/enterAether",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "aether_legacy:freezer",
+            "text": "Морозильная машина, построенная из материалов эфира, которую я мог бы использовать для замораживания воды для создания льда."
+        },
+        {
+            "type": "crafting",
+            "recipe": "aether_legacy:enchanter",
+            "text": "Магическая ремонтная машина, которую можно использовать для ремонта моих инструментов и брони с помощью осколков амброзия или Электрума."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				
+			]
+		}
+    ]
+}

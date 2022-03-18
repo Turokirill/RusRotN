@@ -1,0 +1,29 @@
+{
+    "name": "Бронза",
+    "icon": "contenttweaker:material_part:0",
+    "category": "innovation_metallurgy",
+    "advancement": "triumph:advancements/ores/copper",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:material_part:0",
+            "text": "Делать бронзу довольно просто. Объединив примерно 3 части $(l:innovation/metallurgy/copper)меди$() с 1 частью олова, расплавляя их вместе в $(l:innovation/burn/kiln)печи$() при относительно низкой температуре плавления около 2000 градусов по Фаренгейту дадут 4 бронзы."
+        },
+        {
+            "type": "kiln_spotlight",
+            "title": "Бронзовый слиток",
+            "input": "contenttweaker:material_part:37",
+            "output": "contenttweaker:material_part:0",
+            "time": "5:20min",
+            "text": "Этот материал гораздо более прочный и пластичный, чем $(thing)медь$() используется для его изготовления, что делает его использование для инструментов намного лучше. Я также мог бы сделать лучшие детали из-за его прочности."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "innovation/burn/kiln",
+                "innovation/metallurgy/copper"
+            ]
+        }
+    ]
+    
+}

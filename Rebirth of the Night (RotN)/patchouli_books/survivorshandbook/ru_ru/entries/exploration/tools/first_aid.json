@@ -1,0 +1,29 @@
+{
+    "name": "Первая помощь",
+    "icon": "scalinghealth:healingitem:1",
+    "category": "exploration_tools",
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ношение предметов первой помощи будет удобно во время чрезвычайных ситуаций.$(br2)Их использование занимает некоторое время, поэтому мне нужно убедиться, что я нахожусь в безопасном месте, прежде чем подавать заявку."
+        },
+        {
+            "type": "text",
+            "text": "$(br2)$(o)После показан только 1 способ крафта, но есть различные способы крафта с мхом, мылом, блестящей дыней и т.д."
+        },		
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:aloe_dressing",
+            "recipe2": "crafttweaker:scalinghealth_medkit_5",
+            "text": "Only 1 method of crafting is shown but there are many ways to craft"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "adapt/twine",
+                "gather/sticks"
+            ]
+        }
+    ]
+}

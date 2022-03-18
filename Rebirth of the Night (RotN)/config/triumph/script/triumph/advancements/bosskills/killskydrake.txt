@@ -1,0 +1,14 @@
+setIcon(<mowziesmobs:naga_fang>)
+setTitle("Заземлен")
+setDescription("Сразите грозного воздушного хищника.")
+
+addRewardFunction("triumph:killedskydrake")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("skydrake", "minecraft:player_killed_entity")
+criteria.setEntityType("mowziesmobs:naga")
+
+hideLines()
+alwaysVisible()
+setPos(-281,54)

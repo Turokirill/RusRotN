@@ -1,0 +1,21 @@
+setIcon(<minecraft:skull, meta:5, count:1>)
+setTitle("Конец эпохи")
+setDescription("Убейте Дракона Эндера и станьте свидетелем конца начала.")
+
+addParent("triumph:advancements/progression/end/enterEnd")
+
+addRewardFunction("triumph:killEndDragon")
+
+
+criteria = addCriteria("ender_dragon", "minecraft:player_killed_entity")
+criteria.setEntityType("ender_dragon")
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+setHidden(true)
+drawDirectLines()
+setPos(425,0)

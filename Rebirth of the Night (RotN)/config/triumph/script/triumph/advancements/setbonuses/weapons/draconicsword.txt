@@ -1,0 +1,12 @@
+setIcon("msmlegacy:draconic_blade")
+setTitle("Тайная энергия")
+setDescription("Создайте Draconic Sword")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Draconic Sword", "minecraft:inventory_changed")
+criteria.addItem("msmlegacy:draconic_blade")
+
+hideLines()
+alwaysVisible()
+setPos(90,220)

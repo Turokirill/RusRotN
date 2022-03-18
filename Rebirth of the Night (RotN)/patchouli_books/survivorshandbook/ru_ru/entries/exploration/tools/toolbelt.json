@@ -1,0 +1,28 @@
+{
+    "name": "Пояс для инструментов",
+    "icon": "toolbelt:belt",
+    "category": "exploration_tools",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "toolbelt:belt",
+            "text": "Для того, чтобы быть готовым ко всем типам ситуаций, требуются инструменты любого типа, а пояс для инструментов - это как раз то, что мне нужно для быстрого доступа к моему набору утилит."
+        },
+		{
+            "type": "spotlight",
+            "item": "toolbelt:belt",
+            "text": "$(o)По умолчанию доступ к инструментам осуществляется через \"`\" клавищу, а пояс для инструментов может быть дополнен поясными сумками на наковальне, вмещающими до 9 инструментов."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped108294730",
+            "recipe2": "crafttweaker:ct_shaped370654776"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "innovation/materials/leather"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedMyrmexQueen
+tellraw @p ["",{"text":"Источник упорядоченных магических релизов от королевы мирмехов.","color":"blue","italic":true}]

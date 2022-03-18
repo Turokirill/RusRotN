@@ -1,0 +1,9 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+title @p times 40 120 60
+title @p subtitle {"text":"Земля содрогается глубоко под планетой", "color":"yellow"}
+title @p title {"text":"Возрождение Галактики", "bold":false, "italic":false, "color":"red"}
+gamestage silentadd @p killedQuazar
+gamestage silentremove @a start
+give @p scalinghealth:crystalshard 4
+playsound minecraft:ambient.cave ambient @p ~ ~ ~ 100 0.5

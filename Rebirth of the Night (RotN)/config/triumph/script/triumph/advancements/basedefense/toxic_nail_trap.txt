@@ -1,0 +1,11 @@
+setIcon(<minetraps:toxic_nail_trap>)
+setTitle("Toxic Nail Trap")
+setDescription("Токсины не действуют против большинства монстров.")
+
+addParent("triumph:advancements/basedefense/nail_trap")
+
+criteria = addCriteria("Toxic Nail Trap", "minecraft:inventory_changed")
+criteria.addItem(<minetraps:toxic_nail_trap>)
+
+alwaysVisible()
+setPos(-204,-33)

@@ -1,0 +1,27 @@
+{
+  "name": "Котел",
+  "icon": "minecraft:cauldron",
+  "category": "agriculture",
+  "read_by_default": "true",
+  "pages": [
+	{
+      "type": "crafting",
+      "recipe": "minecraft:cauldron",
+	  "text": "Простой металлический котел - это ворота к множеству различных супов, варев и всевозможных необычных смесей."
+    },
+	{
+      "type": "cauldron_recipe",
+	  "input_item": "contenttweaker:magic_blend",
+	  "tip1": "Lunar water",
+	  "tip2": "1 Bottle",
+	  "output": "dungeontactics:magic_powder",
+	  "text": "Погружая эту смесь в лунную воду, я могу создавать порошки, наполненные силой Луны; их достаточно, чтобы питать волшебные палочки."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "magic/vis_sample"
+      ]
+    }
+  ]
+}

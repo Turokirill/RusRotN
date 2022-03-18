@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedLordBastion
+tellraw @p ["",{"text":"Источник смертоносной магии вырывается из лорда бастиона.","color":"blue","italic":true}]

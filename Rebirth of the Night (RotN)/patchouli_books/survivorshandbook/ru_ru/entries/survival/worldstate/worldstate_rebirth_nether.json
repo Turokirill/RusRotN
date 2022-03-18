@@ -1,0 +1,20 @@
+{
+  "name": "Возрождение Преисподней",
+  "icon": "minecraft:nether_star",
+  "category": "survival_worldstate",
+  "advancement": "triumph:advancements/progression/killedWither",
+
+  "pages": [
+ 	{
+      "type": "text",
+      "text": "Разрушение Увядания пробудило множество страшных существ по всей Преисподней. Я боюсь, что некоторые из них перешли в Подземелье... возможно, и на поверхность тоже."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

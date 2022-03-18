@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"Край истинного света: Я маяк праведности. Ты пламя. Вместе мы выжжем порчу из этого мира.","color":"yellow"}]

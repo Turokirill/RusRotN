@@ -1,0 +1,28 @@
+{
+    "name": "Динамит",
+    "icon": "betterwithmods:dynamite_bundle",
+    "category": "exploration_tools",
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "betterwithmods:dynamite_bundle",
+            "text": "Добыча большого количества камня может оказаться довольно громоздкой, поэтому я мог бы прибегнуть к использованию $(thing)динамита$() и $(thing)связки динамита$() чтобы очистить его."
+        },
+		{
+            "type": "spotlight",
+            "item": "betterwithmods:dynamite_bundle",
+            "text": "Я также могу использовать $(thing)для добычы полезных ископаемых$() с помощью $(thing)связки динамита$() чтобы иметь более контролируемый взрыв."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:betterwithmodsdynamite",
+            "recipe2": "betterwithmods:items/dynamite_bundle"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:betterminingcharge",
+            "recipe2": "crafttweaker:tnt_dynamite"
+        }
+    ]
+}

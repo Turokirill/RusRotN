@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedSkydrake
+tellraw @p ["",{"text":"Источник ядовитой магии высвобождается из небесного дракона.","color":"blue","italic":true}]

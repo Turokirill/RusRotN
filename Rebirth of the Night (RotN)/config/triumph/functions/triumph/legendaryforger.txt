@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+give @p msmlegacy:adminium_ark
+tellraw @p ["",{"text":"Боже, как далеко ты продвинулся. Я наблюдал за тобой с самого начала и знал, что ты станешь таким могущественным. Вот, у тебя может быть мой клинок. Мне от него больше нет никакой пользы. Хорошо сражайся, авантюрист. Я поговорю с вами снова, когда придет время.","color":"dark_red","italic":true}]

@@ -1,0 +1,11 @@
+setIcon(<minetraps:bear_trap>)
+setTitle("Bear Trap")
+setDescription("Полностью обездвиживает мобов и постоянно наносит им урон. Не требует сброса.")
+
+addParent("triumph:advancements/basedefense/razor_wire")
+
+criteria = addCriteria("Bear Trap", "minecraft:inventory_changed")
+criteria.addItem(<minetraps:bear_trap>)
+
+alwaysVisible()
+setPos(-19,0)

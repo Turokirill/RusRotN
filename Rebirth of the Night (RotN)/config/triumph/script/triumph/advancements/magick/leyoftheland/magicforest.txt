@@ -1,0 +1,13 @@
+setIcon(<iceandfire:pixie_house:1>)
+setTitle("Роща Пикси")
+setDescription("Найди дом пикси.")
+
+addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
+
+criteria = addCriteria("Mystic Grove", "minecraft:location")
+criteria.setBiome("biomesoplenty:mystic_grove")
+
+hideLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-330,70)

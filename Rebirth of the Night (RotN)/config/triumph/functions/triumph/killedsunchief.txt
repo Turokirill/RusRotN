@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedSunChief
+tellraw @p ["",{"text":"Источник распадающейся магии исходит от вождя солнца.","color":"blue","italic":true}]

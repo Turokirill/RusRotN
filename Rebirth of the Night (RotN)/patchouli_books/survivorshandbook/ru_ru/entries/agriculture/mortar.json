@@ -1,0 +1,37 @@
+{
+  "name": "Строительный раствор",
+  "icon": "artisanworktables:artisans_mortar_gold",
+  "category": "agriculture",
+  "read_by_default": "true",
+  "pages": [
+	{
+      "type": "crafting",
+      "recipe": "crafttweaker:mundane_mortar",
+	  "text": "Я могу раздавить и измельчить несколько материалов пестиком в ступке, в том числе отделить магическую сущность вещей."
+    },
+	{
+      "type": "text",
+      "text": "Различные строительные материалы, по-видимому, влияют на то, каким может быть результат, поэтому мне нужно обратить на это внимание."
+    },
+	{
+      "type": "mortar_recipe",
+	  "item1": "ore:earthQuintessence",
+	  "item2": "",
+	  "item3": "",
+	  "item4": "",
+	  "output": "contenttweaker:earth_quintessence",
+	  "extra": "contenttweaker:vis_speck",
+	  "text": "Самый простой способ получить доступ к природной магии, присутствующей в мире, - это, вероятно, измельчить элементы до их самой примитивной формы,"
+    },
+	{
+      "type": "text",
+      "text": "чтобы я мог получить доступ к изначальной сущности, которая лежит внутри, чистой $(thing)вис."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "magic/vis_sample"
+      ]
+    }
+  ]
+}

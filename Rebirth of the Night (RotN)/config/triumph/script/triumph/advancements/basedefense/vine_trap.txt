@@ -1,0 +1,12 @@
+setIcon(<betterwithmods:vine_trap>)
+setTitle("Vine Trap")
+setDescription("Мобы будут думать, что по нему можно пройти, но провалятся сквозь него! Отлично подходит для рвов.")
+
+addParent("triumph:advancements/basedefense/root")
+
+criteria = addCriteria("Vine Trap", "minecraft:inventory_changed")
+criteria.addItem(<betterwithmods:vine_trap>)
+
+alwaysVisible()
+hideLines()
+setPos(-296,164)

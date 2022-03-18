@@ -1,0 +1,8 @@
+{
+  "name": "Сооружения",
+  "description": "Структуры небес.",
+  "icon": "aether_legacy:holystone_brick",
+  "sortnum": 2,
+  "read_by_default": "true",
+  "parent": "dimensions_aether"
+}

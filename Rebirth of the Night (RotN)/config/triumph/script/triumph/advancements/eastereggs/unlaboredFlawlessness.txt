@@ -1,0 +1,12 @@
+setIcon("contenttweaker:phosphophyllite")
+setTitle("Резцы для драгоценных камней и Древние палочки")
+setDescription("Создайте реликвию 2 из 6, поместив завернутую палочку и стержень из оникса в инфузор.")
+
+addParent("triumph:advancements/eastereggs/root")
+
+criteria = addCriteria("Dev Relic 2", "minecraft:inventory_changed")
+criteria.addItem("spartancompat:katana_onyx")
+
+alwaysVisible()
+hideLines()
+setPos(-368,138)

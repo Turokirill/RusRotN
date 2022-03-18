@@ -1,0 +1,19 @@
+{
+    "name": "Незер уголь",
+    "icon": "betterwithmods:material:1",
+    "category": "innovation_materials",
+    "advancement": "triumph:advancements/progression/nether/enterNether",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Гораздо более мощный кусок угля, смешанный с $(l:innovation/materials/hellfire_dust)адской огненной пылью$() в одном $(l:innovation/burn/cauldron)котле$().$(br2)Важный ингредиент в создании $(l:exploration/tools/glaretorch)ослепительном факеле$() и мощной Стальной кирке, Выкованной с Душой.$(br2)В моем тестировании это вещество горит в два раза дольше, чем обычный кусок угля!"
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/burn/cauldron",
+                "innovation/materials/hellfire_dust"
+			]
+		}
+    ]
+}

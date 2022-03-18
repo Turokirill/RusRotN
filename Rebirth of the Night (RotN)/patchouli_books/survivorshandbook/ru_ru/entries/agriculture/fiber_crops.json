@@ -1,0 +1,41 @@
+{
+  "name": "Волокнистые культуры",
+  "icon": "pyrotech:material:2",
+  "category": "agriculture_crops",
+  "read_by_default": "true",
+  "pages": [
+	{
+	  "type": "text",
+	  "title": "Волокнистые культуры",
+	  "text": "Полезны из-за их волокна, а не из-за зерна или фруктов, используемых в основном для изготовления бумаги, нитий, тканий $(item)Paper$(), $(item)String$(), $(item)Cloth$() и другие текстильные изделия."
+	},
+	{
+	  "type": "item_list_spotlight",
+	  "a":"betterwithmods:material:2",
+	  "a_t":"конопля!",
+	  "a_i":"book:hover_icon.png",
+	  "b":"harvestcraft:cottonitem",
+	  "b_t":"хлопок!",
+	  "b_i":"book:hover_icon.png",
+	  "c":"harvestcraft:sisalitem",
+	  "c_t":"сизаль!",
+	  "c_i":"book:hover_icon.png",
+	  "d":"harvestcraft:juteitem",
+	  "d_t":"джут!",
+	  "d_i":"book:hover_icon.png",
+	  "e":"harvestcraft:flaxitem",
+	  "e_t":"лен!",
+	  "e_i":"book:hover_icon.png",
+	  "f":"harvestcraft:kenafitem",
+	  "f_t":"кенаф!",
+	  "f_i":"book:hover_icon.png",
+	  "g_i":"book:empty.png"
+	},
+    {
+      "type": "relations",
+      "entries": [
+        "survival/string"
+      ]
+    }
+  ]
+}

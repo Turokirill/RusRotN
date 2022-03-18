@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedSludgeLord
+tellraw @p ["",{"text":"Источник творческой магии высвобождается из грязного лорда.","color":"blue","italic":true}]

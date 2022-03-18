@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"Край истинной тьмы: Возвращение... без надежды на покой... причинение вечности.","color":"dark_red"}]

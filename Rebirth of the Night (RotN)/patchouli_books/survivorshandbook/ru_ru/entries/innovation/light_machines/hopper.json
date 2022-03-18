@@ -1,0 +1,28 @@
+{
+    "name": "Фильтрующий бункер",
+    "icon": "betterwithmods:single_machine:2",
+    "category": "innovation_light_machines",
+    "sortnum": 5,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:filtered_hopper",
+            "text": "Фильтрующий бункер позволяет избирательно отделять такие материалы, как гравий или песок, с помощью различных фильтров."
+        },
+        {
+            "type": "text",
+            "text": "Что еще более важно, я могу фильтровать $(l:innovation/materials/hellfire_dust)адскую огненную пыль$() от земли до Пустоты через фильтр Soul Sand.$(br2)Я должен убедиться, что фильтрующий бункер механически приводится в действие сбоку при обработке Netherrack,"
+        },
+		{
+            "type": "text",
+            "text": "однако ... измельчение остатков мертвецов - адское занятие, и без стабильности, обеспечиваемой механической мощностью, я могу оказаться в беспорядке на руках..."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/materials/hellfire_dust"
+			]
+		}
+    ]
+}

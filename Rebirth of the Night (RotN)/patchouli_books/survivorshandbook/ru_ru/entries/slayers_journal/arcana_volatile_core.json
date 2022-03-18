@@ -1,0 +1,15 @@
+{
+  "name": "Volatile Core(Изменчивое Ядро)",
+  "icon": "contenttweaker:volatile_core",
+  "category": "slayers_journal_arcana",
+  "advancement": "triumph:advancements/progression/nether/killedQuazar",
+
+  "pages": [
+  	{
+			"type": "spotlight",
+			"title": "Volatile Core",
+			"item": "contenttweaker:volatile_core",
+			"text": "$(#734608)The $(item)Volatile Core$() $(#734608) Изменчевое ядро падает из (Квазаров)Quazar. Внутри него содержится такая мощная энергия, что его можно было бы превратить в Волшебную бомбу $(item)Magic Bomb$()$(#734608), способный прорваться сквозь Тайный Барьер $(thing)Arcane Barrier$()$(#734608).$()"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "The End (Край)",
+    "icon": "minecraft:end_stone",
+    "category": "dimensions_end",
+    "sortnum": 4,
+    "advancement": "triumph:advancements/progression/end/enterEnd",
+    "pages": [
+    {
+        "type": "text",
+        "text": "Вот оно.$(br)The End.$(br2) Край. Легендарное измерение, где запечатан последний Дракон Эндера.$(br2)Сейчас я не могу повернуть назад, но я приготовился к худшему.$(br2)Давайте завоюем этот мир."
+      }
+    ]
+  }

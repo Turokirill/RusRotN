@@ -1,0 +1,11 @@
+setIcon(<dungeontactics:trap_port>)
+setTitle("Port Trap")
+setDescription("Телепортирует мобов, которые ходят по нему. Приходится сбрасывать после каждого использования.")
+
+addParent("triumph:advancements/basedefense/wrench")
+
+criteria = addCriteria("Port Trap", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:trap_port>)
+
+alwaysVisible()
+setPos(-221,84)

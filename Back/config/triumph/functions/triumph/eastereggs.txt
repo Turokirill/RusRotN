@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+give @p trumpetskeleton:trumpet
+gamestage silentadd @a collectedAllRelics
+tellraw @p ["",{"text":"Привет! Мари, я ведущий разработчик пакета. Просто хочу сказать спасибо за то, что вы такой преданный игрок. Надеюсь, вы не жульничали, чтобы получить это достижение! Если нет, поздравляю :) И еще раз спасибо. На связи <3","color":"gold"}]

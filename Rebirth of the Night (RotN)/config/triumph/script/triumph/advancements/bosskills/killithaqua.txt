@@ -1,0 +1,14 @@
+setIcon(<mod_lavacow:foul_bristle>)
+setTitle("Когда ты пойдешь")
+setDescription("Убейте гуманоидного зверя, который бродит по лесам.")
+
+addRewardFunction("triumph:killedithaqua")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("ithaqua", "minecraft:player_killed_entity")
+criteria.setEntityType("mod_lavacow:ithaqua")
+
+hideLines()
+alwaysVisible()
+setPos(-250,210)

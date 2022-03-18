@@ -1,0 +1,8 @@
+{
+  "name": "Эфир",
+  "description": "Светлое, небесное царство высоко над облаками...",
+  "icon": "aether_legacy:aether_dirt",
+  "sortnum": 4,
+  "read_by_default": "true",
+  "parent": "dimensions"
+}

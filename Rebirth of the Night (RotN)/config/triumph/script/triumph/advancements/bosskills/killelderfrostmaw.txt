@@ -1,0 +1,14 @@
+setIcon(<fairylights:light:207>)
+setTitle("Отвратительный")
+setDescription("Убейте редкого бегемота зимы.")
+
+addRewardFunction("triumph:killedfrostmaw")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("frostmaw", "minecraft:player_killed_entity")
+criteria.setEntityType("mowziesmobs:frostmaw")
+
+hideLines()
+alwaysVisible()
+setPos(-281,86)

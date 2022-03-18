@@ -1,0 +1,28 @@
+{
+    "name": "Адская Огненная Пыль",
+    "icon": "betterwithmods:material:16",
+    "category": "innovation_materials",
+    "advancement": "triumph:advancements/progression/nether/enterNether",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "betterwithmods:material:16",
+            "text": "Фильтрованная огненная эссенция из Преисподней, полученная путем фильтрации $(thing)измельченного незерека$() через $(l:innovation/light_machines/hopper)фильтрованный бункер с песком душ$()."
+        },
+        {
+            "type": "text",
+            "text": "Его можно использовать для создания нижнего осадка'nether sludge', концентрированного адского огня, $(l:innovation/materials/nether_coal)незер угля$(), и взрывное масло в сочетании с другими предметами в $(l:innovation/burn/cauldron)кулинарном котел$(),"
+        },
+		{
+            "type": "text",
+            "text": "чтобы назвать несколько применений.$(br2)Концентрированный адский огонь используется для создания $(l:innovation/burn/hibachi)хибачи$(), полезно для топки котла или тигля.$(br2)Примечание: Не нагревайте с помощью разожженного пламени."
+        },
+        {
+			"type": "relations",
+			"entries": [
+                "innovation/light_machines/hopper",
+				"innovation/materials/nether_coal"
+			]
+		}
+    ]
+}

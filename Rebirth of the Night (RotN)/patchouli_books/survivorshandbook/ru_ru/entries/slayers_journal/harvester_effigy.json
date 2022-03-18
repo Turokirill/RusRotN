@@ -1,0 +1,45 @@
+{
+  "name": "Комбайн",
+  "icon": "harvestersnight:harvester_scythe",
+  "category": "slayers_journal",
+  "advancement": "triumph:advancements/progression/slayersjournal",
+
+  "sortnum": 1,
+  "pages": [
+  	{
+			"type": "spotlight",
+			"title": "Зажигание фитиля",
+			"item": "minecraft:lit_pumpkin",
+			"text": "$(#734608)Комбайн - это не столько монстр, сколько сила природы. Научился этому темному ритуалу у ведьмы: построил одно из этих пугал вокруг $(l:slayers_journal/soulfire_core)$(item)Soulfire Chassis$() $(#734608)вызовет эхо духа Жнеца.$()"
+		},
+	{
+	"type": "multiblock",
+      "name": "Harvester Effigy",
+      "multiblock": {
+        "pattern": [
+					[" J ", "   "],
+					["H0H", "   "],
+					[" B ", " S "]
+				],
+        "mapping": {
+          "0": "betternether:bone_block",
+          "J": "minecraft:lit_pumpkin[facing=east]",
+          "H": "minecraft:hay_block",
+		  "B": "betternether:bone_block",
+		  "S": "multiblockmobs:soul_chassis[facing=east]"
+		},
+				"symmetrical": true,
+				"offset"     : [0, 0, 0],
+				"view_offset": [0, 0, 0]
+   		},
+			"text": "$(#734608)Зажженная тыква, тюки сена и затвердевшая кость образуют тело.$()",
+			"enable_visualize": true
+},
+    {
+      "type": "relations",
+      "entries": [
+        "slayers_journal/soulfire_core"
+      ]
+    }
+  ]
+}

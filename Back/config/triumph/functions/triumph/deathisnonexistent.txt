@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"Возникает слабое воспоминание о вашем более слабом я. Ты совсем забыл чувство смерти.","color":"dark_red","italic":true}]

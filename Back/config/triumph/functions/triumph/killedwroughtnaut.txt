@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedWroughtnaut
+tellraw @p ["",{"text":"Источник умопомрачительной магии высвобождается из ворнаута..","color":"blue","italic":true}]

@@ -1,0 +1,13 @@
+setIcon(<aether_legacy:golden_oak_sapling>)
+setTitle("Дерево Узнается По Его Магии")
+setDescription("Похоже, некоторые деревья более склонны использовать магию, чем другие. Откройте для себя одно из этих деревьев и посадите его.")
+
+addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
+
+// make this unlock with planting any arcane sapling
+criteria = addCriteria("Arcane Sapling", "minecraft:placed_block")
+criteria.setBlock(<ore:arcaneSapling>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-330,-35)

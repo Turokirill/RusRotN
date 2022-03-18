@@ -1,0 +1,11 @@
+setIcon(<dungeontactics:powered_bars>)
+setTitle("Powered Bars")
+setDescription("Наносит больше урона, чем забор из колючей проволоки, но не замедляет.")
+
+addParent("triumph:advancements/basedefense/barbed_wire_fence")
+
+criteria = addCriteria("Toxic Mine", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:powered_bars>)
+
+alwaysVisible()
+setPos(-84,-33)

@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"Свет сияет через вашу душу...","color":"light_purple","italic":true}]

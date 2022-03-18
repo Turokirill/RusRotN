@@ -1,0 +1,23 @@
+{
+    "name": "Шкив и якорь",
+    "icon": "betterwithmods:single_machine:1",
+    "category": "innovation_utilities",
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:blocks/mech/single_machine_1",
+            "text": "Механическое устройство, которое размещает канаты непосредственно под ним и изменяет его поведение при механическом приводе. Это, в сочетании с якорем и какой-то легкой платформой,"
+        },
+		{
+            "type": "text",
+            "text": "может быть полезно для создания элементарных лифтов для вертикального перемещения ...  если я смогу правильно рассчитать время."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				
+			]
+		}
+    ]
+}

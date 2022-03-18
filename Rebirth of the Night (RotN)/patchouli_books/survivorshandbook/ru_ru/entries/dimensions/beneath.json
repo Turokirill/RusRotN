@@ -1,0 +1,17 @@
+{
+  "name": "The Beneath (Нижний)",
+  "icon": "minecraft:bedrock",
+  "category": "dimensions_beneath",
+  "sortnum": 2,
+  "advancement": "triumph:advancements/progression/beneath/enterBeneath",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Я наконец-то преодолел Тайный Барьер $(thing)Arcane Barrier$() и упал вниз, в Подземелье.$(br2)Но здесь темнее, чем в бездне, и я чувствую, что все монстры Внизу смотрят на меня, когда я вхожу."
+    },
+    {
+      "type": "text",
+      "text": "Мне все еще нужно собирать ценные минералы, такие как мифрил $(thing)mythril$() здесь, но я не могу быть слишком жадным, иначе меня завалит больше монстров, чем я смогу выдержать."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedSeaSerpent
+tellraw @p ["",{"text":"Источник сбалансированной магии высвобождается из морского змея..","color":"blue","italic":true}]

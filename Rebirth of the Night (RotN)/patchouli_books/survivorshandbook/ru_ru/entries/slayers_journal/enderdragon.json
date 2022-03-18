@@ -1,0 +1,40 @@
+{
+  "name": "Дракон Энда",
+  "icon": "endreborn:dragon_scales",
+  "category": "slayers_journal",
+  "advancement": "triumph:advancements/progression/beneath/killedIdolOfRadiance",
+
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "В крае",
+      "item": "endreborn:dragon_scales",
+      "text": "$(#734608)'$(italics)Бесконечно летает дракон,$(br)последний в своем роде,$(br)тщетно неся$(br2)на себе тяжесть всего своего мира.$()'$(br2)$(#734608)Перевел эту фразу в журнале кодекса. Стихотворение или какая-то молитва?$()$()"
+    },
+    {
+      "type": "text",
+      "text": "$(#734608)Руны, начертанные на некоторых из $(thing)кристаллов$() $(#734608)Я видел, что в аванпостах Эндера, похоже, говорится о 'восстановлении' или 'поддержании' какого-то древнего разрушающего зверя - того самого дракона?"
+    },
+	{
+      "type": "text",
+      "text": "Кристаллы чрезвычайно летучи (отлично подходит в качестве триггеров дистанционного детонации!), но я не смог обнаружить в них никакой целительной энергии или квинтэссенции жизни, как бы я ни старался.$()."
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:ender_crystal",
+      "scale": 0.8,
+      "offset": -0.9,
+      "rotate": "false",
+      "default_rotation": -45,
+      "name": "End Crystal"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "slayers_journal/soulfire_core",
+        "slayers_journal/altar"
+      ]
+    }
+  ]
+}

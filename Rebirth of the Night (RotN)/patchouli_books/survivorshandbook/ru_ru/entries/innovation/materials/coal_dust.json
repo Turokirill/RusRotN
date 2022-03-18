@@ -1,0 +1,25 @@
+{
+    "name": "Угольная пыль",
+    "icon": "betterwithmods:material:18",
+    "category": "innovation_materials",
+    "advancement": "triumph:advancements/ores/iron",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "betterwithmods:material:18",
+            "text": "Мелкоизмельченная угольная пыль.$(br2)Хотя сам по себе он не очень полезен, его текущее состояние позволяет легко сплавлять его с железом для создания $(l:innovation/metallurgy/steel)грубаЙ стали$()"
+        },
+		{
+            "type": "text",
+            "text": "в тигле или альтернативно смешанный с $(l:innovation/materials/hellfire_dust)адской огненной пылью$() для создания $(l:innovation/materials/nether_coal)незер угля$(), который, я не сомневаюсь, стал бы мощным источником топлива."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/light_machines/millstone",
+                "innovation/materials/hellfire_dust",
+                "innovation/materials/nether_coal"
+			]
+		}
+    ]
+}

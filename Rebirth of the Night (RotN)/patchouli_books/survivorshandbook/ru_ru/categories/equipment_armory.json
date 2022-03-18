@@ -1,0 +1,7 @@
+{
+  "name": "Броня и оружие",
+  "description": "Броня, чтобы защитить меня, и оружие, чтобы гарантировать, что я останусь таким.",
+  "icon": "minecraft:iron_sword",
+  "sortnum": 0,
+  "parent": "equipment"
+}

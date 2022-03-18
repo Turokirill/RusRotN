@@ -1,0 +1,12 @@
+setIcon("mod_lavacow:canebeef")
+setTitle("Элдрич Ест'")
+setDescription("Создайте реликвию 3 из 6 с бутербродами и ужасными ингредиентами'Dev Relic'.")
+
+addParent("triumph:advancements/eastereggs/root")
+
+criteria = addCriteria("Dev Relic 3", "minecraft:inventory_changed")
+criteria.addItem("mod_lavacow:canebeef")
+
+alwaysVisible()
+hideLines()
+setPos(-333,138)

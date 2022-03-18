@@ -1,0 +1,13 @@
+{
+  "name": "The Nether(Ад)",
+  "icon": "minecraft:netherrack",
+  "category": "dimensions_nether",
+  "sortnum": 1,
+  "advancement": "triumph:advancements/progression/nether/enterNether",
+  "pages": [
+  {
+      "type": "text",
+      "text": "Это место представляет собой пугающий, выжженный огнем пейзаж из выжженных камней и лавы, но оно все еще может похвастаться своими необычными формами жизни.$(br2)Я не могу недооценивать угрозу быть сожженным заживо, если надеюсь сориентироваться здесь."
+    }
+  ]
+}

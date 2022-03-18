@@ -1,0 +1,12 @@
+setIcon("betternether:cincinnasite")
+setTitle("Красавица Из Ада")
+setDescription("Добыть cincinnasite ore")
+
+addParent("triumph:advancements/ores/bronze")
+
+criteria = addCriteria("Cincinnasite", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreCincinnasite>)
+
+alwaysVisible()
+setPos(-170,-104)
+hideLines()

@@ -1,0 +1,6 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+title @p times 40 120 60
+title @p subtitle {"text":"Тени извиваются и корчатся вокруг тебя...", "color":"gray"}
+title @p title {"text":"Бездна", "bold":false, "italic":false, "color":"gray"}
+gamestage silentadd @a enteredBeneath

@@ -1,0 +1,17 @@
+setIcon(<rustic:elixir>)
+setTitle("Алхимия")
+setDescription("Приготовление настоек и зелий.")
+
+addParent("triumph:advancements/magick/root")
+
+addCriteria("location", "minecraft:location")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+setFrameType("GOAL")
+alwaysVisible()
+hideLines()
+setCompletedIconColor(115,215,240)
+// (horizontal, vertical)
+setPos(-400,200)

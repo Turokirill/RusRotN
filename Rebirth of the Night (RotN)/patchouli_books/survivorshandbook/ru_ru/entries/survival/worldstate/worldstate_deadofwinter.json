@@ -1,0 +1,20 @@
+{
+  "name": "В разгар зимы",
+  "icon": "iceandfire:dread_portal",
+  "category": "survival_worldstate",
+  "advancement": "triumph:advancements/progression/killedSunSpirit",
+
+  "pages": [
+ 	{
+      "type": "text",
+      "text": "Когда я уничтожил Дух Солнца, какое-то леденящее душу присутствие проникло в мой мир. Я предполагаю, что он сильнее всего в самое холодное время года..."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

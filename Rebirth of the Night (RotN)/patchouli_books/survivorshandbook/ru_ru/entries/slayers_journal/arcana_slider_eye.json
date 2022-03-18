@@ -1,0 +1,15 @@
+{
+  "name": "Глазок слайдера",
+  "icon": "contenttweaker:slider_eye",
+  "category": "slayers_journal_arcana",
+  "advancement": "triumph:advancements/progression/aether/killedSlider",
+
+  "pages": [
+  	{
+			"type": "spotlight",
+			"title": "Slider Eye",
+			"item": "contenttweaker:slider_eye",
+			"text": "$(#734608)The $(item)Slider Eye$() $(#734608) Глазок ползунка дропается с ползунков(Sliders). Его можно превратить в Тайный фокус $(item)Arcane Focus$()$(#734608), который способен откачивать энергию из Тайного Барьера $(thing)Arcane Barrier$()$(#734608) и храните его внутри, разрушая барьер в процессе.$()"
+    }
+  ]
+}

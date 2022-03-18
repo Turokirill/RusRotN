@@ -1,0 +1,11 @@
+setIcon(<dungeontactics:trap_spectral>)
+setTitle("Spectral Trap")
+setDescription("Подсвечивает мобов сквозь стены, которые по нему ходят. Приходится сбрасывать после каждого использования.")
+
+addParent("triumph:advancements/basedefense/wrench")
+
+criteria = addCriteria("Spectral Trap", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:trap_spectral>)
+
+alwaysVisible()
+setPos(-183,84)

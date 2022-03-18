@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedSiren
+tellraw @p ["",{"text":"Шрифт иллюзорной магии вырывается из сирены.","color":"blue","italic":true}]

@@ -1,0 +1,12 @@
+setIcon(<advancedmortars:mortar:4>)
+setTitle("Тайный раствор")
+setDescription("Создать arcane mortar")
+
+addParent("triumph:advancements/magick/sygaldry/mundanemortar")
+
+criteria = addCriteria("Arcane Mortar", "triumph:player_crafted_item")
+criteria.setItem(<advancedmortars:mortar:4>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-295,-165)

@@ -1,0 +1,14 @@
+setIcon(<twilightforest:twilight_sapling:4>)
+setTitle("У Листьев Есть Секреты")
+setDescription("Древние друиды прятали реагенты в высоких сумеречных дубах. Найдите, посадите и исследуйте один из них.")
+
+addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
+
+// make this unlock with feeding an alicio
+criteria = addCriteria("Twilight Planted", "minecraft:placed_block")
+criteria.setBlock(<twilightforest:twilight_sapling:4>)
+
+hideLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-225,-35)

@@ -1,0 +1,20 @@
+{
+  "name": "Разрушенный Мифрил",
+  "icon": "simpleores:mythril_ore",
+  "category": "survival_worldstate",
+  "advancement": "triumph:advancements/progression/minedMythril",
+
+  "pages": [
+ 	{
+      "type": "text",
+      "text": "Уничтожение этих залежей мифрила, казалось, повлияло на защитную магию тайного барьера. Всевозможные твари, которые раньше прятались, теперь без страха бродят по миру."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

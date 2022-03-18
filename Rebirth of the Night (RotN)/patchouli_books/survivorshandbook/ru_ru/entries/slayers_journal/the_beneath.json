@@ -1,0 +1,27 @@
+{
+  "name": "Внизу",
+  "icon": "dimstack:portal",
+  "category": "slayers_journal",
+  "advancement": "triumph:advancements/progression/nether/killedQuazar",
+
+  "sortnum": 1,
+  "pages": [
+  	{
+			"type": "spotlight",
+			"title": "Преодоление Тайного барьера",
+			"item": "contenttweaker:magic_bomb",
+			"text": "$(#734608)Чтобы преодолеть Тайный Барьер, вы должны взорвать его с помощью магии. A $(item)Magic Bomb$()$(#734608) Магическая бомба, созданная путем разрушения Летучего Ядра(Volatile Core), является одним из способов взорвать барьер.  $()"
+	},
+	{
+		"type": "text",
+		"text": "$(#734608)Имейте в виду, преодоление Тайного Барьера высвободит все зло, которое было заперто там на протяжении веков. $()"
+	  },
+	
+    {
+      "type": "relations",
+      "entries": [
+        "slayers_journal/arcana_volatile_core"
+      ]
+    }
+  ]
+}

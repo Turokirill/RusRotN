@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedCyclops
+tellraw @p ["",{"text":"Источник сильной магии высвобождается из циклопов..","color":"blue","italic":true}]

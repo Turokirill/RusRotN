@@ -1,0 +1,9 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+title @a times 40 120 60
+title @a subtitle {"text":"Фрагменты потерянной империи эхом звучат вокруг вас...", "color":"yellow"}
+title @a title {"text":"Возрождение мира", "bold":false, "italic":true, "color":"red"}
+gamestage silentadd @a killedEnderDragon
+gamestage silentadd @a killedHarvester
+gamestage silentadd @a killedQuazar
+gamestage silentadd @a minedMythril

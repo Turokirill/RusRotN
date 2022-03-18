@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedUndertaker
+tellraw @p ["",{"text":"Источник душевной магии высвобождается от гробовщика.","color":"blue","italic":true}]

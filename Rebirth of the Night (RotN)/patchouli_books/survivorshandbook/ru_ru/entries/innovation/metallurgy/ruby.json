@@ -1,0 +1,37 @@
+{
+  "name": "Рубин",
+  "icon": "biomesoplenty:gem:1",
+  "category": "innovation_metallurgy",
+  "advancement": "triumph:advancements/ores/ruby",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "biomesoplenty:gem:1",
+      "text": "Воздействие $(item)рубина$() немедленно проявилось в моем физическом существе.$(br2)Доспехи, которые я выковал из него, наполнили мои вены всепоглощающим гневом и заставили меня $(thing)убивать$()."
+    },
+    {
+      "type": "text",
+      "text": "Я почувствовал, что становлюсь сильнее и увереннее в бою, как будто я сам мог $(thing)выдерживать новые атаки$() и продолжай сражаться.$(br2)Однако ярость, придавшая мне смелости, не могла отвлечь от страха, который жил в глубине моего сознания, пока я носила рубин."
+    },
+	{
+      "type": "text",
+      "text": "Мне не нравится, как он себя чувствует, но я хочу надеть его снова..."
+    },
+    {
+      "type": "spotlight",
+      "item": "atop:ruby_chestplate",
+      "advancement": "triumph:advancements/ores/diamond",
+      "text": "В то время как $(l:innovation/metallurgy/diamond)алмазная$() сохраняла себя, медленно восстанавливая свои собственные раны, $(item)рубиновая$() казалось, у неё было желание сохранить меня выше себя, медленно залечивая мои собственные раны."
+    },
+    {
+
+      "type": "relations",
+      "entries": [
+        "equipment/gem_ingots",
+        "innovation/metallurgy/peridot",
+        "innovation/metallurgy/diamond",
+        "innovation/metallurgy/sapphire"
+      ]
+    }
+  ]
+}

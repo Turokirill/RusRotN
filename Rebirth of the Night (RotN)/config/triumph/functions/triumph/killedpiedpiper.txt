@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedPiedPiper
+tellraw @p ["",{"text":"Шрифт знающей магии высвобождается из Крысолова.","color":"blue","italic":true}]

@@ -1,0 +1,13 @@
+setIcon("minecraft:iron_ingot")
+setTitle("Самая Универсальная Руда")
+setDescription("Добыть iron ore")
+
+addParent("triumph:advancements/ores/tin")
+addParent("triumph:advancements/ores/copper")
+
+criteria = addCriteria("Iron ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreIron>)
+
+alwaysVisible()
+setPos(-362,23)
+hideLines()

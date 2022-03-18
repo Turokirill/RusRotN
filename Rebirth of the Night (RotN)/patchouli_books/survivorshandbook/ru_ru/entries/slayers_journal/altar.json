@@ -1,0 +1,28 @@
+{
+  "name": "Алтарь призыва",
+  "icon": "from_the_depths:block_altar_of_summoning",
+  "category": "slayers_journal_summoning",
+  "advancement": "triumph:advancements/progression/killedHarvester",
+
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "from_the_depths:block_altar_of_summoning",
+      "text": "$(#734608)Burning$() $(thing)magic-imbued totems$() $(#734608)on an $(item)Altar of Summoning$()$(#734608) Горящая магия, пропитанная на Алтаре Призывающих тотемов, вызывает монстров из-за пределов. Магия порождает магию. Алтарь не может быть создан без силы Магического Стола $(item)Mage Table$() $(#734608)и темная мощь Осколка Ночи $(item)Shard of Night.$()$()$()"
+    },
+	 {
+      "type": "text",
+      "text": "$(#734608)The$() $(item)Altar of Summoning$() $(#734608) Алтарь Призыва может быть построен где угодно, но требует тонкой настройки и нелегко транспортируется. $(#ff0000)not easily transportable.$() $(#734608)Он изящен и нуждается в чистом, широком пространстве вокруг него, чтобы ничто не мешало призыву. В любом случае, я бы не рекомендовал строить одну из этих проклятых штуковин в вашем доме.$()" 
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "slayers_journal/soulfire_core"
+      ]
+    }
+  ]
+}
+
+
+
+

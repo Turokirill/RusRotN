@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedDestroyer
+tellraw @p ["",{"text":"Источник хаотической магии высвобождается из разрушителя.","color":"blue","italic":true}]

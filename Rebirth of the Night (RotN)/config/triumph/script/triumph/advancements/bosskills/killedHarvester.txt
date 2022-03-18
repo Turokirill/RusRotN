@@ -1,0 +1,15 @@
+setIcon(<harvestersnight:harvester_scythe>)
+setTitle("Обильный урожай")
+setDescription("Убить Комбайна 'The Harvester'.")
+
+addParent("triumph:advancements/bosskills/root")
+
+
+criteria = addCriteria("Harvester", "minecraft:player_killed_entity")
+criteria.setEntityType("harvestersnight:harvester")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+hideLines()
+setPos(-119,54)

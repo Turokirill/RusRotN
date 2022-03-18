@@ -1,0 +1,23 @@
+{
+    "name": "Клей",
+    "icon": "betterwithmods:material:12",
+    "category": "innovation_materials",
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "betterwithmods:material:12",
+            "text": "Вещество, которое скрепляет все вместе.$(br)($(thing)Шелковистый осадок$() также является хорошей заменой)$(br)Получают путем плавления кожи в $(l:innovation/burn/stoked_flame)разогретом котле$()."
+        },
+		{
+            "type": "text",
+            "text": "Лучше всего использовать для сборки $(l:innovation/mechpower/windpower)ветряной мельницы$() и $(l:innovation/mechpower/hydropower)водяного колеса$() и всех частей.$(br2)Не съедобно."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/burn/stoked_flame"
+			]
+		}
+    ]
+}

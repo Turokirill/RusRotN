@@ -1,0 +1,11 @@
+setIcon(<minetraps:toxic_mine>)
+setTitle("Toxic Mine")
+setDescription("Гораздо меньший радиус взрыва, но большой радиус токсинов. Токсины не действуют против большинства монстров..")
+
+addParent("triumph:advancements/basedefense/mine")
+
+criteria = addCriteria("Toxic Mine", "minecraft:inventory_changed")
+criteria.addItem(<minetraps:toxic_mine>)
+
+alwaysVisible()
+setPos(39,-33)

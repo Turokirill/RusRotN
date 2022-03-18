@@ -1,0 +1,14 @@
+setIcon(<rats:piper_hat>)
+setTitle("С пылу с жару")
+setDescription("Уничтожьте музыканта-любителя и его последователей-грызунов.")
+
+addRewardFunction("triumph:killedpiedpiper")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("pied_piper", "minecraft:player_killed_entity")
+criteria.setEntityType("rats:illager_piper")
+
+hideLines()
+alwaysVisible()
+setPos(-281,179)

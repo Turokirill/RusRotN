@@ -1,0 +1,25 @@
+{
+    "name": "Заводная рукоять",
+    "icon": "betterwithmods:hand_crank",
+    "category": "innovation_mechpower",
+    "sortnum": 1,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:hand_crank",
+            "text": "Элементарное, но простое решение.$(br2)Поместив его рядом со свом $(l:innovation/light_machines/millstone)мельничным жерновом$(), Я могу измельчать материалы за короткие промежутки времени, что дает мне полезные красители, волокна и шкуры."
+        },
+        {
+            "type": "text",
+            "text": "Однако врашение рукоятки - это работа на полный весь день, и к тому времени, когда я заканчиваю, я всегда чувствую себя немного голодным."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "innovation/light_machines/millstone"
+            ]
+        }
+    ]
+    
+}

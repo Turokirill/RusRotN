@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedGorgon
+tellraw @p ["",{"text":"Источник преображающей магии высвобождается из горгоны.","color":"blue","italic":true}]

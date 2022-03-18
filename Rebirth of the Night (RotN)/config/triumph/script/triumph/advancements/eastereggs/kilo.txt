@@ -1,0 +1,12 @@
+setIcon("dungeontactics:terrible_feather")
+setTitle("Разговоры - это чепуха")
+setDescription("Создайте реликвию 6 из 6, объединив ангельские перья с рунами жизни и души.")
+
+addParent("triumph:advancements/eastereggs/root")
+
+criteria = addCriteria("Dev Relic 6", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:terrible_feather")
+
+alwaysVisible()
+hideLines()
+setPos(-226,138)

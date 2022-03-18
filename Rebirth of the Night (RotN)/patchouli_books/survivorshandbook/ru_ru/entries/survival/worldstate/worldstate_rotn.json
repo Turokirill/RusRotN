@@ -1,0 +1,20 @@
+{
+  "name": "Возрождение ночи",
+  "icon": "contenttweaker:shard_of_night",
+  "category": "survival_worldstate",
+  "advancement": "triumph:advancements/progression/killedHarvester",
+
+  "pages": [
+ 	{
+      "type": "text",
+      "text": "Будь то из-за уничтожения могущественного духа или из-за путешествия вглубь земли, кажется, что по всей земле пробудились всевозможные новые существа. Были ли они вызваны к жизни моими действиями, или они только ждали этого момента?"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

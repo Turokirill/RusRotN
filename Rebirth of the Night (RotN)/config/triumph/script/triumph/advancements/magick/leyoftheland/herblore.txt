@@ -1,0 +1,12 @@
+setIcon(<rustic:marsh_mallow>)
+setTitle("Ее Слава")
+setDescription("Травы - это полезные ресурсы земли. Получить некоторые травы для дальнейшего изучения.")
+
+addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
+
+criteria = addCriteria("Herb", "minecraft:inventory_changed")
+criteria.addItem(<ore:alcHerb>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-365,0)

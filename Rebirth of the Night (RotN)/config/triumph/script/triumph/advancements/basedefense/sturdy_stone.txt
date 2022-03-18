@@ -1,0 +1,12 @@
+setIcon(<quark:sturdy_stone>)
+setTitle("Tough as Stone")
+setDescription("Прочный камень и все каменные кирпичи имеют повышенную твердость и отлично подходят для стен!")
+
+addParent("triumph:advancements/basedefense/root")
+
+criteria = addCriteria("Sturdy Stone", "minecraft:inventory_changed")
+criteria.addItem(<quark:sturdy_stone>)
+
+alwaysVisible()
+hideLines()
+setPos(-339,50)

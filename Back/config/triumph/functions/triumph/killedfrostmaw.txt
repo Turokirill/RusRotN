@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedFrostmaw
+tellraw @p ["",{"text":"Из морозной пасти высвобождается фонтан энергичной магии..","color":"blue","italic":true}]

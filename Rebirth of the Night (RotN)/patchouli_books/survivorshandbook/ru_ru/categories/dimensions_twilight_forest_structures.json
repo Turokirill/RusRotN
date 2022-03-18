@@ -1,0 +1,8 @@
+{
+  "name": "Сооружения",
+  "description": "Таинственные башни сумерек.",
+  "icon": "twilightforest:miniature_structure:6",
+  "sortnum": 2,
+  "read_by_default": "true",
+  "parent": "dimensions_twilight_forest"
+}

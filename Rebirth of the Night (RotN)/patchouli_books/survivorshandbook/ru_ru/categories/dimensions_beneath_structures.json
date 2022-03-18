@@ -1,0 +1,8 @@
+{
+  "name": "Сооружения",
+  "description": "Монолит подножья.",
+  "icon": "minecraft:stonebrick",
+  "sortnum": 2,
+  "read_by_default": "true",
+  "parent": "dimensions_beneath"
+}

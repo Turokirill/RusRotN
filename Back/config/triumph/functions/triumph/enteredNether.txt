@@ -1,0 +1,7 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+title @p times 40 120 60
+title @p subtitle {"text":"Крики проклятого эха вокруг тебя...", "color":"yellow"}
+title @p title {"text":"Нижний мир", "bold":false, "italic":false, "color":"red"}
+gamestage silentadd @a enteredNether
+gamestage silentremove @a start

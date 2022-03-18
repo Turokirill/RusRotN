@@ -1,0 +1,12 @@
+setIcon(<harvestcraft:well>)
+setTitle("Так так так.")
+setDescription("Позволяет использовать бесконечную воду. Очень полезно для настройки, защиты базы.")
+
+addParent("triumph:advancements/basedefense/root")
+
+criteria = addCriteria("Well", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:well>)
+
+hideLines()
+alwaysVisible()
+setPos(-339,0)

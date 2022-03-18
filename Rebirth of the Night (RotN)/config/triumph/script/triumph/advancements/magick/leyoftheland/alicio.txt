@@ -1,0 +1,14 @@
+setIcon(<betterwithaddons:sapling_luretree>)
+setTitle("Кровавое письмо")
+setDescription("В сказках рассказывается о дереве, которое плачет кровью и заманивает к себе животных. Откройте, посадите и накормите одного из них.")
+
+addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
+
+// make this unlock with feeding an alicio
+criteria = addCriteria("Alicio Planted", "minecraft:placed_block")
+criteria.setBlock(<betterwithaddons:sapling_luretree>)
+
+hideLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-260,-35)

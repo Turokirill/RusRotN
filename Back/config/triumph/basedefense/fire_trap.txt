@@ -1,0 +1,11 @@
+setIcon(<dungeontactics:trap_fire>)
+setTitle("Fire Trap")
+setDescription("Поджигает мобов, которые ходят по нему. Приходится сбрасывать после каждого использования.")
+
+addParent("triumph:advancements/basedefense/wrench")
+
+criteria = addCriteria("Fire Trap", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:trap_fire>)
+
+alwaysVisible()
+setPos(-259,84)

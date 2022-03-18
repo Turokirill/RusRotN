@@ -1,0 +1,28 @@
+{
+  "name": "Инструменты входа в сделку",
+  "icon": "minecraft:shears",
+  "category": "construction_tools",
+  "advancement": "triumph:advancements/WIP",
+  "pages": [
+  {
+      "type": "text",
+      "text": "$(item)Tongs$() Щипцы позволят вам безопасно обращаться с цветами $(item)Blooms$().$(p)$(info)  Чтобы сорвать цветок $(item)Bloom$(), $(use) используйте цветок $(item)Bloom$() с ножницами $(item)Tongs$().$(p)$(info) $(item)Tongs$() Щипцы, зажатые в обеих руках, поднимут цветок $(item)Bloom$() когда он попадет в ваш инвентарь.$(p)$(info) $(item)Tongs$()"
+    },
+	{
+      "type": "text",
+      "text": "Щипцы можно использовать с $(item)Bloomery$() цветами и увядающей кузницей $(item)Wither Forge$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pyrotech:tool/obsidian_pickaxe",
+      "recipe2": "pyrotech:tool/obsidian_axe"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Затычка",
+  "icon": "contenttweaker:info",
+  "category": "magic_incantation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Затычка text"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

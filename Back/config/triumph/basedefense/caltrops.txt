@@ -1,0 +1,12 @@
+setIcon(<dungeontactics:caltrops>)
+setTitle("Caltrops")
+setDescription("Простая ловушка для защиты в начале игры. Ведите зомби с помощью источников света.!")
+
+addParent("triumph:advancements/basedefense/root")
+
+criteria = addCriteria("Caltrops", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:caltrops>)
+
+alwaysVisible()
+hideLines()
+setPos(-296,0)

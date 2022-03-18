@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedIthaqua
+tellraw @p ["",{"text":"Источник естественной магии высвобождается из Итаквы.","color":"blue","italic":true}]

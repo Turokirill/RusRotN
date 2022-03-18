@@ -1,0 +1,19 @@
+{
+    "name": "Распределитель блоков",
+    "icon": "betterwithmods:block_dispenser",
+    "category": "innovation_utilities",
+    "advancement": "triumph:advancements/ores/crudeSteel",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "betterwithmods:block_dispenser",
+            "text": "Диспенсер с автоматической блокировкой, который помещает все, что находится в его первом слоте, при питании от редстоуна, а также помещает его обратно при отключении питания."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				
+			]
+		}
+    ]
+}

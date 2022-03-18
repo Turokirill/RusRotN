@@ -1,0 +1,16 @@
+setIcon(<dynamictreesbop:magicseed>)
+setTitle("Лей Земли")
+setDescription("Магия пронизывает все в природе.")
+
+addParent("triumph:advancements/magick/root")
+
+addCriteria("location", "minecraft:location")
+
+setShowToast(false)
+setAnnounceToChat(false)
+alwaysVisible()
+hideLines()
+setFrameType("GOAL")
+setCompletedIconColor(55,160,60)
+// (horizontal, vertical)
+setPos(-400,0)
